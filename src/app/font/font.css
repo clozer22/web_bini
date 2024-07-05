@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'HyperoRegular';
+    src: url('./HyperoRegular.ttf') format('truetype');
+    /* Add additional font-face declarations for different font styles (e.g., bold, italic) if available */
+  }
+
+  @font-face {
+    font-family: 'Birds of Paradise';
+    src: url('./BirdOfParadise.ttf') format('truetype');
+    /* Add additional font-face declarations for different font styles (e.g., bold, italic) if available */
+  }
+    

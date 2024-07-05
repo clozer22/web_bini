@@ -1,5 +1,34 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+::-webkit-scrollbar {
+  width: 8px; /* Adjust the width as needed */
+}
 
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color of the scrollbar track */
+}
 
+::-webkit-scrollbar-thumb {
+  background-color: #83ECFA; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Rounded corners */
+  border: 2px solid #f1f1f1; /* Padding around the scrollbar thumb */
+}
+
+.swiper {
+    width: 100%;
+    padding-top: 50px;  
+    padding-bottom: 50px;
+  }
+  
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
